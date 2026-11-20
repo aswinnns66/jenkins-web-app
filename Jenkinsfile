@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo 'Pulling latest code from GitHub...'
-                git branch: 'main', url: 'https://github.com/<username>/jenkins-web-app.git'
+                git branch: 'main', url: 'https://github.com/aswinnns66/jenkins-web-app.git'
             }
         }
 
